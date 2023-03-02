@@ -15,7 +15,7 @@
         <div style="" class="col-span-2">j</div>
         <div style="" class="col-span-1">k</div>
         <div style="" class="col-span-2">l</div>
-        <div style="" class="col-span-1">m</div>
+        <div style="" class="col-span-1">Ulug'bek</div>
       </div>
     </div>
   </div>
