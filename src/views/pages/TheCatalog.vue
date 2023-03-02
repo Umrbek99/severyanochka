@@ -1,7 +1,7 @@
 <template>
   <div class="bg-amber-50 px-4 py-4">
     <div class="xl:container xl:max-w-screen-xl pb-4">
-      <h1 class="text-[64px] font-bold text-card_p my-5">Каталог</h1>
+      <h1 class="text-[64px] font-bold text-card_p my-5"> Каталог</h1>
       <div class="grid grid-cols-4 gap-6">
         <a href="" class="col-span-2">
           <div
