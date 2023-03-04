@@ -82,27 +82,38 @@
         <div class="col-span-9">
           <div class="flex flex-row flex-wrap gap-4">
             <button
-              class=" bg-map_btn2   px-[8px] py-[8px] text-[12px] rounded-sm text-white hover:text-green-800"
+              class="bg-map_btn2 px-[8px] py-[8px] text-[12px] rounded-sm text-white hover:text-green-800"
             >
-            Фильтр 4
+              Фильтр 4
             </button>
             <button
-              class=" bg-map_btn2 px-[8px] py-[8px] text-[12px] rounded-sm text-white hover:text-gray-800"
+              class="bg-map_btn2 px-[8px] py-[8px] text-[12px] rounded-sm text-white hover:text-gray-800"
             >
-            Цена от 99 до 2599
+              Цена от 99 до 2599
             </button>
             <button
               class="text-card_p bg-map_btn1 px-[8px] py-[8px] text-[12px] rounded-sm hover:text-map_btn2"
             >
-            Очистить фильтры
+              Очистить фильтры
             </button>
+          </div>
+
+          <div class="grid grid-cols-3 gap-5 mt-4">
+            <TheCard v-for="item in 6" />
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
-<script></script>
+<script>
+import TheCard from "../../../components/TheCard.vue";
+export default {
+  components: {
+    TheCard,
+  },
+};
+</script>
 <style>
 input:focus {
   outline: none;
