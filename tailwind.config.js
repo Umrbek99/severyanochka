@@ -17,7 +17,7 @@ module.exports = {
         map_btn1:'#F3F2F1',
         map_btn2:'#70C05B',
         news_btn1:'#E5FFDE',
-        footer_color:'#F9F4E2'
+        footer_color:'#F9F4E2',
       }
     },
     container:{

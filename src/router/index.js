@@ -29,9 +29,22 @@ const router = createRouter({
       component: () => import('../views/pages/TheLogin.vue'),
     },
     {
-      path: '/catalog',
+      path: '/',
       name: 'catalog',
-      component: () => import('../views/pages/TheCatalog.vue'),
+      component: () => import('../views/pages/catalog/TheMainCatalog.vue'),
+      redirect:'catalog',
+      children:[
+        {
+          path: '/catalog',
+          name: 'catalog',
+          component: () => import('../views/pages/catalog/TheCatalog.vue'),
+        },
+        {
+          path:'/catalog/item',
+          name:'item',
+          component: () => import('../views/pages/catalog/TheCatalogItem.vue')
+        }
+      ]
     }
   ]
 })

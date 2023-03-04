@@ -9,6 +9,7 @@
     </transition>
   </router-view>
   </div>
+  <!-- <router-view></router-view> -->
   <TheFooter/>
  </div>
 </template>
