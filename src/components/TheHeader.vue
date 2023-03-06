@@ -67,14 +67,14 @@
               </router-link>
             </li>
             <li class="flex flex-col items-center">
-              <router-link active-class="active" to="/login" class="hover:text-green-400 flex flex-col items-center">
+              <div  active-class="active" to="/login" class="cursor-pointer hover:text-green-400 flex flex-col items-center">
                 <img
                   class="w-[26px] h-[26px]"
                   src="../assets/imagesSecond/User.svg"
                   alt=""
                 />
                 <p class="hover:text-green-400">Войти</p>
-              </router-link>
+            </div>
             </li>
           </ul>
         </nav>
