@@ -97,7 +97,7 @@ export default {
 };
 </script>
 <style>
-d input:focus {
+input:focus {
   outline: none;
   border: 1px solid #70c05b;
 }
