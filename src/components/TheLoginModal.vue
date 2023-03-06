@@ -1,4 +1,5 @@
 <template>
+  <!-- modal -->
   <div v-if="isOpen" class="">
     <div class="absolute h-full w-full bg-orange-400 z-20 opacity-60"></div>
     <div class="relative flex justify-center">
@@ -36,14 +37,12 @@
 <script>
 export default {
   props: {
-    isOpen:Boolean
+    isOpen: Boolean,
   },
   data() {
-    return {
-    };
+    return {};
   },
-  methods: {
-  },
+  methods: {},
 };
 </script>
 <style>
