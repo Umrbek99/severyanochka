@@ -1,5 +1,5 @@
 <template>
-  <TheLoginModal :isOpen="isOpen" @close="closeModal"/>
+    <TheLoginModal :isOpen="isOpen" @close="closeModal" />
   <header class="shadow-lg py-4 sticky top-0 z-10 bg-white">
     <div
       class="xl:container xl:max-w-screen-xl px-5 flex justify-between flex-wrap items-center"
@@ -118,11 +118,11 @@ export default {
   },
   methods: {
     showModal() {
-        this.isOpen = true;
-      },
-      closeModal() {
-        this.isOpen = false;
-      }
+      this.isOpen = true;
+    },
+    closeModal() {
+      this.isOpen = false;
+    },
   },
 };
 </script>

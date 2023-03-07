@@ -117,27 +117,33 @@
                 >Списать 200 ₽
               </span>
             </label>
-            <p class="text-gray-500">На карте накоплено 200 ₽ </p>
+            <p class="text-gray-500">На карте накоплено 200 ₽</p>
             <div class="border-b mt-6 mb-4"></div>
-            <div class="flex items-center justify-between ">
+            <div class="flex items-center justify-between">
               <p class="text-gray-500 text-[16px]">3 товара</p>
-              <p>258,10  ₽ </p>
+              <p>258,10 ₽</p>
             </div>
-            <div class="flex items-center justify-between mt-3 ">
+            <div class="flex items-center justify-between mt-3">
               <p class="text-gray-500 text-[16px]">Скидка</p>
-              <p class="text-orange-500 font-bold">-8,01  ₽ </p>
+              <p class="text-orange-500 font-bold">-8,01 ₽</p>
             </div>
             <div class="border-b mt-6 mb-4"></div>
-            <div class="flex items-center justify-between ">
+            <div class="flex items-center justify-between">
               <p class="text-gray-500 text-[16px]">Итог</p>
-              <p class="text-card_p text-[24px] font-bold">250,09 ₽ </p>
+              <p class="text-card_p text-[24px] font-bold">250,09 ₽</p>
             </div>
             <div class="text-center text-map_btn2 text-[12px] mt-1">
               <p>Вы получяете 100 бонусов</p>
             </div>
             <div class="flex flex-col items-center mt-10 gap-6">
-              <button class="bg-red-600 text-[12px] text-white  px-3 rounded-md">Минимальная сумма заказа 1000р</button>
-              <button class= "py-[18px] px-[30px] rounded-md bg-spec_color1 text-[24px] font-bold text-orange-600 hover:text-orange-800">Оформить заказ</button>
+              <button class="bg-red-600 text-[12px] text-white px-3 rounded-md">
+                Минимальная сумма заказа 1000р
+              </button>
+              <button
+                class="py-[18px] px-[30px] rounded-md bg-spec_color1 text-[24px] font-bold text-orange-600 hover:text-orange-800"
+              >
+                Оформить заказ
+              </button>
             </div>
           </div>
         </div>
