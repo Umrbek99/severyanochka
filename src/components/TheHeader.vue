@@ -13,9 +13,10 @@
         <p class="text-white md:block sm:hidden esm:hidden mr-[40px] ">Каталог</p>
       </router-link>
 
-      <div class="flex items-center w-full mr-[20px]">
+      <div class="flex items-center w-full mr-[20px] relative">
         <input class=" pl-[20px] w-full rounded-lg h-full border border-green-500 focus-visible:border-green-400" type="text"
           placeholder="Найти товар" />
+          <img class="absolute" src="../assets/Images/search.svg" alt="">
       </div>
 
       <ul class="flex items-center">
